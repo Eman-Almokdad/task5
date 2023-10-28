@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    
+  }
+
+
+  header {
+    height: 100vh;
+  }
+  nav{
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding:70px ;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+  }
+  nav .pragraph-nav {
+    color: #054C73;
+    font-size: 34px;
+    font-weight: 700;
+
+  }
+  nav .nav-list{
+    list-style: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 61px; */
+  }
+  nav li a {
+    text-decoration: none;
+    color: var(--font-color, #333);
+        font-size: 1rem;
+    font-weight: 600;
+  }
+  nav .nav-men {
+    display: none;
+    border: none;
+    }
+    /* -------------------------------------hero----------------------------------- */
+  .hero {
+    background-image: url(../images/bg-hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh ;
+    width: 100%;
+    position: relative;
+   
+  }
+  .hero .container {
+    width: 643px;
+    height: 446px;
+    background-color: #DFE9F4;
+    position: sticky;
+    top: 130px;
+    left: 723px;
+    padding: 4.0281% 5.0352%;
+  }
+  
+.text{
+    color: #333;
+    line-height: 39px; /* 216.667% */
+    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+.pragraph{
+    color: #054C73;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 125%;
+    max-width: 420px;
+}
+.text2{
+    height: 120.049px;
+    font-size: 1.125rem;
+    width: 523.597vw;
+    font-weight: 500;
+    color: var(--font-color, #333);
+    line-height: 39px; /* 216.667% */
+  }
+.btn{
+    width: max-content;
+    color: #FFF;
+    margin-top: 60.33px;
+    display: block;
+    border-radius: 50px;
+    background: #054C73;
+    height: 68px;
+    padding: 25px 72px;
+    font-weight: 700;
+    border: none;
+    }
+/* -------------------------------------section-1----------------------------------- */
+.section-1{
+  padding: 45px  3.2942%;
+  width: 100%;
+  /* height: 149px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 45px;
+  background-color: #F2F5FF;
+}
+.group{
+  width: 312px;
+  padding: calc(149-55) 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-1 .img-section-1 {
+  height: 55px ;
+}
+.p-section-1{
+color: #333;
+font-size: 24px;
+font-weight: 600;
+}
+.span-section-1{
+color: #333;
+font-size: 1rem;
+font-weight: 400;
+}
+/* --------------------------------------section-2---------------------------------- */
+.section-2 , .section-4 .section-5{
+  padding: 100px  34px;
+    width: 100%;
+  /* height: 149px; */
+  }
+.head , .heading{   
+  width: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+flex-direction: column;}
+.span-section-2 , .span-section-4{  
+  max-width: 450px;  
+  color:  #666;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+}
+.p-section{
+ width: max-content;
+color:  #333;
+font-size: 32px;
+font-weight: 700;
+}
+.card1{
+  padding: 100px  0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 49.5px;
+}
+
+.m-top{
+  
+  margin-top: 30px;
+}
+.img-1{
+  width: 100%;
+  border-top-left-radius: 10%;
+}
+.img-2{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.img-3{
+  width: 100%;
+  border-bottom-right-radius: 10%;
+;
+}
+.div-lamp{
+  position: relative;
+}
+.lamp{
+  width: 100px;
+  height: 300px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+/* -----------------------------------section-3------------------------------------- */
+.section-3{
+ 
+  width: 100%;
+  display: flex;
+justify-content: space-around;
+   flex-wrap: wrap;
+}
+.cont{
+    display: flex;
+  flex-direction: column;
+ }
+.span-section-3{
+  margin-top: 16px;
+  max-width: 431px;
+  color:  #666;
+font-size: 20px;
+font-weight: 400;
+line-height: 39px; /* 195% */
+}
+.img-section-3
+{
+  max-width: 100%;
+}
+.m-top1{  
+  margin-top: 30px;
+}
+/* ---------------------------------section-4--------------------------------------- */
+.img-s4{
+  border-radius: 5px;
+  width: 100%;
+}
+.rooms{
+  text-align: center;
+  color: var(--font-color, #333);
+        font-size: 1rem;
+    font-weight: 600;
+}
+.span-section-4{  
+  max-width: 455px;  
+  color:  #666;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+}
+.border-b{
+  border-bottom: 2px solid #D7D6D6;
+}
+/* ---------------------------------section-5--------------------------------------- */
+.perant-circle{
+  
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50% , -115%);
+}
+.circle{
+  margin: 16px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-75%) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.perant{
+  position: relative;
+}
+.circle p{
+  text-align: center;
+  color: white;
+  font-size: 24px;
+font-weight: 700;
+}
+.m-top121{  
+  margin-top: 121px;
+}
+
+.padding{
+  padding-top: 75px;
+  max-width: 361.421px;
+}
+.p-section-5{color: var(--font-color, #333);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .header{   
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;}
+.span-section-5{
+  max-width: 320px;
+  color: var(--font-color-1, #666);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}
+
+/* ---------------------------------section-6--------------------------------------- */
+.bg-color{
+  background: #F2F5FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input-btn{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    }
+  .email{
+    width: 530px;
+    height: 76px;
+    margin-top:50px ;
+    margin-bottom: 70px;
+    border-radius: 3px;
+    border: 1px solid var(--primary-color, #054C73);
+    background: #FFF;
+    padding: 10px  20px;
+    line-height: 1;
+
+    color: #011C42;
+    font-size: 1.2rem;
+    font-weight: 400;
+        opacity: 0.3;
+
+      }
+  .Submit{
+    position: absolute;
+    top:50px;
+    left: 50%;
+    transform: translateX(77%);
+        padding: 15px;
+        height: 76px;
+        width: 149.27px;
+        border-radius: 3px;
+        border: 1px solid #011C42;
+        background: #054C73;
+        color: #FFF;
+        font-size: 1.2rem;
+        font-weight: 700;
+  }
+  .span-section-6{
+    max-width: 320px;
+    color: var(--font-color-1, #666);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  }
+
+/* ------------------------------------------------------------------------ */
+  .footer{
+    width: 100%;
+    padding-bottom:116px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    background: #03344F;
+   
+  }
+  .card1-ft{
+
+   
+   }
+   .ft-img-card {
+    width: 100%;
+    
+   }
+  .card2-ft{
+
+  text-align: right; 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  }
+    .p-footer{
+      color: #FFF;
+      margin-bottom: 25px;
+    }
+    .span-footer{
+      max-width: 390px;
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 35px; /* 218.75% */
+    }
+    .ft-img-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+    .ft-img{
+      max-width: 175px;
+    }
+  
+/* ------------------------------------------------------------------------ */
+@media screen and (max-width:992px) {
+    
+    .text{
+      text-align: center;
+    }
+    nav{
+        padding: 20px;
+        position:absolute ;
+    }
+    .pragraph-nav{font-size: 22px ;}
+    nav .nav-list{
+      display:none;
+    }
+    nav .nav-men{
+      display:block;
+     }
+    .hero .container{
+        max-width: 64.7532vw;
+        height: 100vh;
+        position: relative;
+        top: 130px;
+        left: 0px;
+        max-width: 100vw;
+        background :none;
+        text-align: center;
+         }
+    .pragraph{        
+   max-width: 100vw;
+   margin: 0 auto;
+   font-size: 2.3076rem;
+         }
+         .order{
+          order: 2;
+         }
+    .btn {
+        margin: 6.755% auto;
+    }
+    .section .img-section-1 {
+      height: 50px; }
+      .section-2 , .section-3{padding: auto 32px;}
+      .p-section{font-size: 26px;
+      max-width: 100%;}
+      .span-section-2{font-size: 14px;margin: 0 41px;}
+      .img-section-2  {max-width: 32.258rem;}
+      .img-2{ margin-bottom: 0px;}
+      .m-top{margin-top: 0;}
+      .lamp{top: 0%;width: 98px;
+        height: 264px;}
+        .section-3{padding: 0 32px;}
+        .img-section-3{
+          max-width: 100%;
+        }
+        .cont{
+          max-width: 312px;}
+        .span-section-3{
+          font-size: 20px;}
+          .rooms{
+            margin-top: 15px;
+          }
+          .img-section-4{ max-width: 250px;}
+          .section-5{
+            padding: 0 20px;
+            }
+            .span-section-5{
+            font-size: 14px;
+            }
+            .p-section-5{font-size: 24px;
+            max-width: max-content;}
+            .header{   
+              width: 100%;
+               display: block;
+            }
+            .email{ width: 95%;
+              margin: 0;
+              height: 55px;
+              margin-top: 30px;}
+           .Submit{
+            max-width:100vw ;
+            position: sticky;
+           transform: translateX(-40%);           
+            margin-top: 30px;
+            margin-bottom: 70px;
+            height: 51px;
+          }
+          
+          .span-section-6{font-size: 14px;}
+          .p-footer{font-size: 24px;
+          width: 100%;}
+          .span-footer{font-size: 16px; width: 100%}
+          .ft-img{max-width: 130px;}
+          .footer .m-top121{ margin-top: 55px;}
+
+  }
